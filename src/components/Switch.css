@@ -1,0 +1,64 @@
+.react-switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 131px;
+  height: 39px;
+  background: #1c1e24;
+  border-radius: 100px;
+  position: sticky;
+  float: right;
+  margin-right: 5%;
+  margin-top: -53px;
+  z-index: 2;
+  transition: background-color 0.2s;
+  box-shadow: 0 0 1px 0 #ffffff6b;
+}
+
+.react-switch-label .react-switch-button {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 34px;
+  height: 34px;
+  border-radius: 45px;
+  transition: 0.5s;
+  background: #fff;
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+  background: #282c34;
+}
+.react-switch-checkbox:checked + .react-switch-label {
+  box-shadow: 0 0 1px 0 #111;
+}
+
+.react-switch-label:active .react-switch-button {
+  width: 30px;
+}
+.react-switch-checkbox + .react-switch-label::after {
+  content: "Change Theme";
+  font-size: 12px;
+  position: relative;
+  margin: auto;
+  left: 14px;
+}
+.react-switch-checkbox:checked + .react-switch-label::after {
+  content: none;
+}
+.react-switch-checkbox:checked + .react-switch-label::before {
+  content: "Change Theme";
+  font-size: 12px;
+  position: relative;
+  left: 8px;
+}

@@ -1,0 +1,106 @@
+.top {
+  margin: auto;
+  position: sticky;
+  top: -60px;
+}
+.navbar h3 {
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  background: #282c34;
+  border-radius: 25px 25px 0 0;
+}
+.navbar h6 {
+  margin: auto;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff6b;
+  background: #282c34;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ffffff6b;
+}
+.nav-top {
+  margin: auto;
+  border-radius: 0px 0px 25px 25px;
+  background: #282c34;
+}
+.nav-top p {
+  margin: auto;
+  padding-top: 15px;
+  text-align: center;
+}
+.nav-top h3 {
+  margin: 10px auto;
+  text-align: center;
+}
+.todo-list {
+  margin: 20px;
+}
+.todo-list ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.todo-list li {
+  background: #1c1e24;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 10px auto;
+  width: 95%;
+  box-shadow: 0 0 1px 0 #ffffff6b;
+}
+.todo-list li:hover {
+  text-decoration: line-through;
+  color: rgba(255, 255, 255, 0.5);
+}
+.text {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 10px;
+}
+.text:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+form {
+  margin: auto;
+  text-align: center;
+}
+.input-dark[type="text"] {
+  margin: 15px auto;
+  padding: 5px;
+  font-size: 18px;
+  height: 30px;
+  text-align: center;
+  width: 90%;
+  color: #ffffff;
+  background: #1c1e24;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 1px 0 #ffffff6b;
+}
+.input-dark:focus {
+  outline: none;
+}
+.input-dark::placeholder {
+  color: #ffffff6b;
+}
+.clear {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 25px;
+  background: #1c1e24;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: 5%;
+  box-shadow: 0 0 1px 0 #ffffff6b;
+}
+.clear:focus {
+  outline: none;
+}

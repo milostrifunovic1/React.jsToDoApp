@@ -2,12 +2,17 @@
   "name": "to_do_app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://milostrifunovic1.github.io/React.jsToDoApp/",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "uuid": "^3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

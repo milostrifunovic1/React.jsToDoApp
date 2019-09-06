@@ -1,0 +1,110 @@
+.top-light {
+  margin: auto;
+  position: sticky;
+  top: -60px;
+  color: #1c1e24;
+}
+.navbar-light h3 {
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 25px 25px 0 0;
+  background: #dddddd;
+}
+.navbar-light h6 {
+  margin: auto;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #282c3498;
+  background: #dddddd;
+}
+.navbar-light a {
+  text-decoration: none;
+  color: #282c3498;
+}
+.nav-top-light {
+  margin: auto;
+  border-radius: 0px 0px 25px 25px;
+  border-bottom: 0.2px solid #282c34;
+  background: #dddddd;
+}
+.nav-top-light p {
+  margin: auto;
+  padding-top: 15px;
+  text-align: center;
+}
+.nav-top-light h3 {
+  margin: 10px auto;
+  text-align: center;
+}
+.todo-list-light {
+  margin: 20px;
+}
+.todo-list-light ul {
+  padding: 0px;
+  list-style-type: none;
+}
+.todo-list-light li {
+  background: #dddddd;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 10px auto;
+  width: 95%;
+  box-shadow: 0 0 1px 0 #111;
+}
+.todo-list-light li:hover {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.5);
+}
+.text-light {
+  color: #1c1e24;
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 10px;
+}
+.text-light:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+form {
+  margin: auto;
+  text-align: center;
+}
+.input-light[type="text"] {
+  margin: 15px auto;
+  padding: 5px;
+  font-size: 18px;
+  height: 30px;
+  text-align: center;
+  width: 90%;
+  color: #1c1e24;
+  background: #ffffff;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 1px 0 #1c1e24;
+}
+.input-light::placeholder {
+  color: #282c3498;
+}
+.input-light:focus {
+  outline: none;
+}
+.clear-light {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 25px;
+  background: #ffffff;
+  color: #1c1e24;
+  cursor: pointer;
+  position: relative;
+  left: 5%;
+  box-shadow: 0 0 1px 0 #1c1e24;
+}
+
+.clear-light:focus {
+  outline: none;
+}
