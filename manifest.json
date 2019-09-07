@@ -1,0 +1,15 @@
+{
+  "short_name": "ToDoApp",
+  "name": "React.js To Do App",
+  "icons": [
+    {
+      "src": "react.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#282c34",
+  "background_color": "#282c34"
+}
